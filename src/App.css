@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -12,6 +13,20 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.AdvancedCarousel {
+  width: 50%;
+  /* Adjust width as needed */
+  height: 400px;
+  /* Adjust height as needed */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* Add any other styles you need for the slide image */
+  position: relative;
+  /* To position the product details */
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -32,6 +47,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

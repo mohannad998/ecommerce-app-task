@@ -1,0 +1,61 @@
+.slider-container {
+    /* Add any necessary container styles here */
+}
+
+.each-slide-effect {
+    /* Add any styles for each slide here */
+}
+
+.slide-image {
+    width: 100%;
+    /* Adjust width as needed */
+    height: 500px;
+    /* Adjust height as needed */
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Add any other styles you need for the slide image */
+    position: relative;
+    /* To position the product details */
+}
+
+.product-details {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product-details h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.price {
+    margin-top: 8px;
+}
+
+.regular-price {
+    font-size: 14px;
+    color: #ccc;
+    margin-right: 10px;
+}
+
+.sale-price {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.add-to-cart-btn {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
